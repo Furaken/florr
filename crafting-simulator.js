@@ -1,5 +1,5 @@
 function craftingSimulator(chance, amount) {
-    var numCrafted = attNum = failSPS = highestFailStreak = failStreak = chanceToGetAtLeast1 = 0,
+    var attNum = failSPS = highestFailStreak = failStreak = chanceToGetAtLeast1 = 0,
         allAtt = [],
         chance = chance / 100
         list = [0, 0, 0, 0, chance],
@@ -9,7 +9,6 @@ function craftingSimulator(chance, amount) {
         if (Math.random() * 100 <= chance * 100) {
             amount -= 5
             allAtt.push(attNum)
-            numCrafted++
             if (failStreak > highestFailStreak) highestFailStreak = failStreak
             failSPS = 0
         } else {
@@ -25,12 +24,12 @@ function craftingSimulator(chance, amount) {
     let table = {
         "Success at attempt number" : allAtt.join(", "),
         "Total attempts" : attNum,
-        "Petals crafted" : numCrafted,
+        "Petals crafted" : allAtt.length,
         "Chance to get at least 1" : chanceToGetAtLeast1,
         "Failed attempts since previous success" : failSPS,
         "Highest failed attempts in a row" : highestFailStreak,
         "Remaining petals" : amount,
-        "Average" : consAmount / numCrafted,
+        "Average" : consAmount / (allAtt.length),
         "Average by formula" : (2.5 * chance + 2.5) / chance,
     }
     console.table(table)
