@@ -1,4 +1,4 @@
-var rock = 17070809
+var rock = 17070809 // This id changes every update so the script will not work later, you need to find new id by yourself
 for (let i = rock; i < rock + 58; i++) Module.HEAPU8[i] = 255
 let j = 0
 setInterval(() => {
