@@ -1,0 +1,1 @@
+Frames took from: https://github.com/aznguymp4/bad-apple-discord/blob/main/frames.json
