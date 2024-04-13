@@ -1,0 +1,62 @@
+{
+    "reenableTimeout": 75,
+    "shutdownTimeout": 90,
+    "updateKeepAliveMin": 5,
+    "updateKeepAliveMax": 15,
+    "serverSize": {
+        "cpus": 1,
+        "dedicatedCPUs": true,
+        "ram": 2000,
+        "transfer": 1,
+        "vultrPlanType": "HIGHFREQUENCY"
+    },
+    "regions": [
+        "vultr-miami",
+        "vultr-frankfurt",
+        "vultr-tokyo"
+    ],
+    "matrix": [
+        {
+            "id": "map-0",
+            "endpoint": "florrio-map-0",
+            "tags": {
+                "dungeon": "hel,garden"
+            }
+        },
+        {
+            "id": "map-1",
+            "endpoint": "florrio-map-1",
+            "tags": {
+                "dungeon": "desert"
+            }
+        },
+        {
+            "id": "map-2",
+            "endpoint": "florrio-map-2",
+            "tags": {
+                "dungeon": "ocean"
+            }
+        },
+        {
+            "id": "map-3",
+            "endpoint": "florrio-map-3",
+            "tags": {
+                "dungeon": "jungle"
+            }
+        },
+        {
+            "id": "map-4",
+            "endpoint": "florrio-map-4",
+            "tags": {
+                "dungeon": "ant_hell"
+            }
+        },
+        {
+            "id": "map-5",
+            "endpoint": "florrio-map-5",
+            "tags": {
+                "dungeon": "sewers"
+            }
+        }
+    ]
+}
