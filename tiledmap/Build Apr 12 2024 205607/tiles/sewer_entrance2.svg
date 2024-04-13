@@ -1,0 +1,9 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+<path fill="#999999" stroke="#666666" stroke-width="3.5" stroke-miterlimit="10" d="M196.5,138.64l0,43.1
+	c0,37.8-30.7,68.5-68.5,68.5s-68.5-30.7-68.5-68.5l0-43.1"/>
+<path fill="#999999" stroke="#666666" stroke-width="3.5" stroke-miterlimit="10" d="M210.2,121.36l0,17.86
+	c0,30.86-36.8,55.92-82.2,55.92c-45.4,0-82.2-25.06-82.2-55.92l0-17.86"/>
+<ellipse fill="#666666" cx="128" cy="120.56" rx="84" ry="57.17"/>
+<ellipse stroke="#666666" stroke-width="3.5" stroke-miterlimit="10" cx="128" cy="120.56" rx="67.2" ry="45.71"/>
+</svg>

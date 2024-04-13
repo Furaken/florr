@@ -1,0 +1,19 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="256px" height="256px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+<polygon opacity="0.1" points="130,0 140.5,0 140.5,140.5 0,140.5 0,130 125.5,124.84 "/>
+<rect fill="#999999" width="128" height="128"/>
+<rect x="125.5" fill="#888888" width="5" height="125.5"/>
+<polyline fill="#777777" stroke="#666666" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="125.5,0 
+	125.5,23 101.5,23 101.5,0 "/>
+<path fill="#888888" d="M39.91,36.05c-0.93,1.37-2.8,1.72-4.17,0.8l-5.79-3.93c-1.37-0.93-1.72-2.8-0.8-4.17l3.93-5.79
+	c0.93-1.37,2.8-1.72,4.17-0.8l5.79,3.93c1.37,0.93,1.72,2.8,0.8,4.17L39.91,36.05z"/>
+<path fill="#888888" d="M88.68,78.95c-0.2,1.64-1.7,2.81-3.34,2.61l-6.95-0.85c-1.64-0.2-2.81-1.7-2.61-3.34l0.85-6.95
+	c0.2-1.64,1.7-2.81,3.34-2.61l6.95,0.85c1.64,0.2,2.81,1.7,2.61,3.34L88.68,78.95z"/>
+<path fill="#888888" d="M48.21,111.94c-1.61-0.36-2.64-1.95-2.29-3.57l1.49-6.84c0.36-1.61,1.95-2.64,3.57-2.29l6.84,1.49
+	c1.61,0.36,2.64,1.95,2.29,3.57l-1.49,6.84c-0.36,1.61-1.95,2.64-3.57,2.29L48.21,111.94L48.21,111.94z"/>
+<rect y="125.5" fill="#888888" width="125.5" height="5"/>
+<polyline fill="#777777" stroke="#666666" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="0,101.5 
+	23,101.5 23,125.5 0,125.5 "/>
+<path fill="#888888" d="M125.5,125.5h5c0,0,0-2.76,0,0c0,2.76-2.24,5-5,5c-2.76,0,0,0,0,0"/>
+<rect x="101.5" y="101.5" fill="#777777" stroke="#666666" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" width="24" height="24"/>
+</svg>
